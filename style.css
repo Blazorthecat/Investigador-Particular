@@ -1,4 +1,12 @@
-h5{
+/* Carrossel */
+.carousel-item h5{
     color: yellow;
-    text-shadow: 5px 2px black;
+    text-shadow: 5px 1px black;
+}
+
+/* Fim do carrossel */
+
+/* Cards/Desenvolvimento */
+#cartas {
+    background-color: blue;
 }
