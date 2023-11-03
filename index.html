@@ -10,27 +10,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Menu de navegação do site -->
+
+    <!-- ========= Menu de navegação do site ========= -->
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color: #183741;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="images/detective.png" width="50px" class="ms-3"></a>
+              <a class="navbar-brand" href="#"><img src="images/detective.png" width="40px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
-                  <a class="nav-link text-white" href="#">Sobre</a>
-                  <a class="nav-link text-white" href="#">Contato</a>
+                  <a class="nav-link textoNav" aria-current="page" href="#Inicio">Início</a>
+                  <a class="nav-link textoNav" href="#Sobre">Sobre</a>
+                  <a class="nav-link textoNav" href="#Serviços">Serviços</a>
+                  <a class="nav-link textoNav" href="#FAQ">FAQ</a>
+                  <a class="nav-link textoNav" href="#">Contato</a>
                 </div>
               </div>
             </div>
           </nav>
     <!-- Fim do menu de navegação -->
     </header>
-    <!-- Carrossel de Imagens -->
-    <section style="background-color: #272e2e;">
+
+    <!-- ========= Carrossel de Imagens ========= -->
+    <section style="background-color: #272e2e;" id="Inicio">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -39,21 +43,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/Carrossel/1.jpg" class="d-block w-100" alt="Imagem de investigador anônimo">
+            <img src="images/Carrossel/1.png" class="d-block w-100" alt="Imagem de investigador anônimo">
             <div class="carousel-caption d-none d-md-block">
               <h5>Discreto</h5>
               <p>Investigação discreta, com baixa probabilidade de desconfiança</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/Carrossel/2.jpg" class="d-block w-100" alt="...">
+            <img src="images/Carrossel/2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Casos Familiares</h5>
               <p>Descubra o que sua familia pode estar escondendo de você!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/Carrossel/3.jpg" class="d-block w-100" alt="...">
+            <img src="images/Carrossel/3.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Investigação Empresarial</h5>
               <p>Descubra o que rola por baixo dos panos da sua empresa!</p>
@@ -70,48 +74,93 @@
         </button>
       </div>
     </section>
-    <!-- Fim dos Carrossel de imagens -->
-    <!-- Sessão de serviços -->
-    <section>
+    <!-- ========= Fim dos Carrossel de imagens ========= -->
+
+    <!-- ========= Sessão Sobre ========= -->
+    <section class="container-fluid" id="Sobre">
+      <h1 class="text-center pt-3 pb-3">Sobre</h1>
+      <p class="text-center pe-5 ps-5 pb-5">Sou Francisco, um detetive particular com uma carreira de 5 anos de dedicação às investigações. Minha abordagem é pragmática e voltada para resultados, sem rodeios ou exageros. Com uma sólida formação em investigação, desenvolvi uma reputação de confiabilidade e eficácia na resolução de casos complexos.<br><br>
+
+        Meu compromisso é fornecer respostas claras e soluções práticas aos meus clientes. Minha experiência abrange uma ampla gama de situações, incluindo casos de infidelidade, localização de pessoas desaparecidas, fraudes, investigações empresariais e muito mais. Não prometo magia, mas comprometo-me a fazer uso de meu conhecimento e habilidades para investigar de forma minuciosa e profissional.<br><br>
+        
+        Respeito a privacidade e o sigilo dos meus clientes acima de tudo. Cada caso é tratado com discrição e confidencialidade absolutas. Entendo a sensibilidade e a natureza pessoal das investigações e estou aqui para fornecer assistência profissional em que você pode confiar.<br><br>
+        
+        Se você enfrenta um problema que requer investigação ou deseja discutir como posso ajudar, fique à vontade para entrar em contato para uma consulta confidencial. Estou disponível para fornecer orientação sobre os próximos passos e para ajudar a desenvolver uma estratégia eficiente para resolver seu caso.<br><br>
+        
+        Minha missão é ajudar meus clientes a enfrentar desafios difíceis e fornecer a clareza que eles procuram. Com ética, profissionalismo e dedicação, estou comprometido em ser seu parceiro na busca da verdade.</p>
+    </section>
+
+    <!-- ========= Fim da sessão Sobre ========= -->
+
+    <!-- ========= Sessão de serviços ========= -->
+    <section id="Serviços">
       <div class="card-group">
         <div class="card bg-dark">
           <img src="images/Desenvolvimento/traição.png" class="card-img-top" alt="Traição">
           <div class="card-body">
-            <h5 class="card-title text-center text-warning">Traição</h5>
-            <p class="card-text text-center text-white">Investigação de Internet<br>
-              Varredura Telefônica<br>
-              Acompanhamento <br>
-              Rastreamento de Veículos<br>
-              Fotos e Filmagem<br>
-              Sistema de Monitoramento<br></p>
+            <h5 class="card-title text-center tituloCartas">Traição</h5>
+            <p class="card-text text-center textoCartas">Investigação de Internet, 
+              Varredura Telefônica, 
+              Acompanhamento, 
+              Rastreamento de Veículos, 
+              Fotos e Filmagem, 
+              Sistema de Monitoramento.</p>
           </div>
         </div>
         <div class="card bg-dark">
           <img src="images/Desenvolvimento/empresarial.png" class="card-img-top" alt="Empresarial">
           <div class="card-body">
-            <h5 class="card-title text-center text-warning">Investigação Empresarial</h5>
-            <p class="card-text text-center text-white">Equipamento de Proteção Telefônica<br>
-              Vazamento de Informaçoes<br>
-              Localização de Devedores<br>
-              Contra Espionagem<br>
-              Localização de Golpistas<br>
-              Busca de Antecedentes<br>​</p>
+            <h5 class="card-title text-center tituloCartas">Investigação Empresarial</h5>
+            <p class="card-text text-center textoCartas">Equipamento de Proteção Telefônica, 
+              Vazamento de Informaçoes, 
+              Localização de Devedores, 
+              Contra Espionagem, 
+              Localização de Golpistas, 
+              Busca de Antecedentes.</p>
           </div>
         </div>
         <div class="card bg-dark">
           <img src="images/Desenvolvimento/pessoal.png" class="card-img-top" alt="Pessoal">
           <div class="card-body">
-            <h5 class="card-title text-center text-warning">Investigação Pessoal</h5>
-            <p class="card-text text-center text-white">Busca por Desaparecidos<br>
-              Monitoramento de Babás<br>
-              Monitoramento de Cuidadores<br>
-              Filhos e drogas<br>
-              Monitoramento de Computadores<br>
-              Vigilância Pessoal<br></p>
+            <h5 class="card-title text-center tituloCartas">Investigação Pessoal</h5>
+            <p class="card-text text-center textoCartas">Busca por Desaparecidos, 
+              Monitoramento de Babás, 
+              Monitoramento de Cuidadores, 
+              Filhos e drogas, 
+              Monitoramento de Computadores, 
+              Vigilância Pessoal.</p>
           </div>
         </div>
       </div>
-    <!-- Fim da sessão de serviços -->
+    <!-- ========= Fim da sessão de serviços ========= -->
+
+    <!-- FAQ -->
+    <section id="FAQ">
+      <h3 class="text-center pt-3 pb-3 tituloFAQ">FAQ - Perguntas Frequentes</h3>
+        <h6 class="tituloFAQ pe-5 ps-5">1. O que faz um detetive particular?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Um detetive particular é um profissional capacitado para investigar casos particulares, como infidelidades conjugais, localização de pessoas desaparecidas, investigações empresariais, entre outros.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">2. É legal contratar um detetive particular?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Sim, a profissão de detetive particular é regulamentada no Brasil e é perfeitamente legal contratar seus serviços, desde que os métodos utilizados na investigação respeitem as leis em vigor.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">3. Quanto tempo dura uma investigação?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: O tempo de uma investigação varia de acordo com a complexidade do caso. Pode durar de alguns dias a vários meses. O detetive fornecerá uma estimativa após analisar os detalhes do seu caso.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">4. Quanto custa contratar um detetive?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Os custos variam de acordo com a complexidade do caso, a duração da investigação e os recursos necessários. É importante discutir os honorários com o detetive antes de iniciar a investigação.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">5. As informações descobertas pelo detetive são confidenciais?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Sim, o detetive particular tem o dever de manter a confidencialidade das informações obtidas durante a investigação, a menos que seja legalmente obrigado a divulgá-las.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">6. Posso utilizar as evidências coletadas em um processo judicial?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Depende do tipo de evidência e da forma como foi obtida. É importante garantir que todas as provas coletadas respeitem a legislação para que possam ser utilizadas em processos judiciais.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">7. Como sei que o detetive é confiável?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Antes de contratar, verifique as credenciais do detetive, peça referências e verifique se ele possui licença válida para exercer a profissão.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">8. O detetive pode realizar prisões?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Não, detetives particulares não têm poder de polícia. Se eles descobrirem atividades ilegais durante sua investigação, devem reportar às autoridades competentes.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">9. O que acontece se o detetive não resolver o meu caso?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: A natureza da investigação não garante resultados específicos. No entanto, um bom detetive sempre se esforçará ao máximo e manterá o cliente informado sobre o progresso da investigação.</p>
+        <h6 class="tituloFAQ pe-5 ps-5">10. Como iniciar o processo de contratação?</h6>
+        <p class="textoFAQ pe-5 ps-5">R: Entre em contato com o detetive ou agência de sua escolha, apresente os detalhes do seu caso e discuta as possíveis abordagens, prazos e custos.</p>
+
+    </section>
+    <!-- Fim FAQ -->
+
     </section>
     <footer>
 

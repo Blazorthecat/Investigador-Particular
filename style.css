@@ -1,12 +1,67 @@
-/* Carrossel */
+/* ========= Navbar ========= */
+.textoNav{
+    color: #cdb681;
+}
+
+.textoNav:hover{
+    color: white;
+}
+
+#navbarNavAltMarkup{
+    padding-right: 100px;
+}
+/* =========================== */
+
+/* ========= Carrossel ========= */
 .carousel-item h5{
-    color: yellow;
-    text-shadow: 5px 1px black;
+    color: #cdb681;
+    text-shadow:
+      1px 1px 0 #0000009c,
+      -1px 1px 0 #0000009c,
+      -1px -1px 0 #0000009c,
+      1px -1px 0 #0000009c;
 }
 
-/* Fim do carrossel */
-
-/* Cards/Desenvolvimento */
-#cartas {
-    background-color: blue;
+.carousel-item p{
+    color: #8d8c84;
+    text-shadow:
+    1px 1px 0 #00000063,
+    -1px 1px 0 #00000063,
+    -1px -1px 0 #00000063,
+    1px -1px 0 #00000063;
 }
+/* =========================== */
+
+/* ========= Sobre ========= */
+body{
+    background-color: #272e2e;
+}
+
+#Sobre h1{
+    color: #cdb681;
+}
+
+#Sobre p{
+    color: #8d8c84;
+}
+/* =========================== */
+
+/* ========= Serviços ========= */
+
+.tituloCartas{
+    color: #cdb681;
+}
+
+.textoCartas{
+    color: #8d8c84;
+}
+/* ========= FAQ ========= */
+.textoFAQ{
+    color: #8d8c84;
+}
+
+.tituloFAQ{
+    color: #cdb681;
+}
+
+/* =========================== */
