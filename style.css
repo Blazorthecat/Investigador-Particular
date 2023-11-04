@@ -65,3 +65,30 @@ body{
 }
 
 /* =========================== */
+
+/* ========= Contato ========= */
+
+#contato h1, h4{
+    color: #cdb681;
+}
+
+#contato button{
+    color: white;
+}
+
+#contato a{
+    text-decoration: none;
+    color: white;
+}
+/* =========================== */
+
+/* ========= Footer ========= */
+
+#copy {
+    font-size: xx-small;
+    padding-bottom: 0;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+/* =========================== */
